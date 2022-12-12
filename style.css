@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #2B3A55;
+    height: 100%;
+}
+
+.container {
+    background-color: #F49D1A;
+    position: absolute;
+    height: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+
+
+}
+
+.screen1 {
+    background-color: #2B3A55;
+    border-radius: 30px;
+    width: 80%;
+    height: 15%;
+    margin: 5px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-180deg);
+    color: white;
+
+}
+
+.screen2 {
+    background-color: #2B3A55;
+    border-radius: 30px;
+    width: 80%;
+    height: 15%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+
+}
+
+.switch {
+    width: 60%;
+    height: 65%;
+    background-color: aliceblue;
+    margin: 0 auto;
+    border-radius: 100px;
+}
+
+.ball {
+    width: 95%;
+    height: 50%;
+    background-color: #2B3A55;
+    border-radius: 50%;
+    margin: 0 auto;
+    transition: all 0.5s ease;
+}
